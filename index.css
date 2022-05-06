@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+}
+h1 {
+  font-size: 50px;
+  margin: 50px 0;
+}
+/* q1 */
+table {
+  margin: 100px auto;
+}
+th,
+td {
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  padding: 10px;
+  text-align: center;
+}
+#theader th:nth-child(2) {
+  width: 200px;
+}
+#theader th:nth-child(4) {
+  width: 500px;
+}
+table {
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}
+.operate-form {
+  margin: 0 auto;
+  width: 1200px;
+  border: 5px solid skyblue;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.operate-form div {
+  text-align: center;
+  font-size: 40px;
+  color: skyblue;
+  border-bottom: 5px dashed skyblue;
+  margin-bottom: 10px;
+  height: 100px;
+  line-height: 100px;
+}
+
+#uname {
+  width: 175px;
+}
+#age {
+  width: 50px;
+}
+#tel {
+  width: 160px;
+}
+button {
+  text-decoration: none;
+  color: skyblue;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 5px;
+  text-decoration: underline;
+}
+button:hover {
+  color: #fff;
+  background-color: skyblue;
+}
+/* q2 */
+.q2 {
+  height: 500px;
+}
+ul {
+  width: 500px;
+  float: left;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+ol {
+  width: 500px;
+  float: left;
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
+/* q3 */
+.q3 {
+  height: 500px;
+}
+
+option {
+  font-size: 20px;
+  background-color: #545555;
+  color: #fff;
+}
+.option {
+  margin: 100px;
+  width: 300px;
+  height: 40px;
+  border: 1px solid #cccccc;
+}
+.option select {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 20px;
+}
